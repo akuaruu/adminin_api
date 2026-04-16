@@ -1,0 +1,11 @@
+# Binaries
+/adminin-api
+*.exe
+
+# Database
+*.db
+*.sqlite
+
+# Editor directories and files
+.vscode/
+.idea/
