@@ -20,9 +20,9 @@ AdminIn API is a RESTful backend service built with Go. The project is designed 
 
 ## Roadmap
 
-    [ ] Implement JWT (JSON Web Token) authentication mechanism.
+    [x] Implement JWT (JSON Web Token) authentication mechanism.
 
-    [ ] Add /login endpoint for session generation.
+    [x] Add /login endpoint for session generation.
 
     [ ] Integrate structured logging (e.g., Zap or Logrus).
 
@@ -38,6 +38,7 @@ adminin-api/
 │   └── api/
 │       └── main.go         # Application entry point & dependency injection
 ├── internal/
+│   ├── auth/ 
 │   ├── handler/            # HTTP transport layer (Request/Response)
 │   ├── service/            # Business logic layer (Validation, hashing, etc.)
 │   ├── repository/         # Data access layer (Database operations)
