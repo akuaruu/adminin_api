@@ -3,6 +3,7 @@ module github.com/akuaruu/adminin_api
 go 1.25.0
 
 require (
+	github.com/golang-jwt/jwt/v5 v5.3.1
 	golang.org/x/crypto v0.50.0
 	gorm.io/driver/sqlite v1.6.0
 	gorm.io/gorm v1.31.1
